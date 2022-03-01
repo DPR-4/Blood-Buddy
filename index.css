@@ -120,7 +120,7 @@ header {
 }
 
 .text-box h1 {
-  font-size: 70px;
+  font-size: 60px;
   font-family: "Neuton", serif;
   letter-spacing: 8px;
 }
@@ -1335,3 +1335,40 @@ footer {
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 2rem 2rem rgba(0, 0, 0, 0.226); }
+
+    .heading-primary{
+    /* font-size: 2rem; */
+    text-transform: uppercase;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgba(235, 13, 235, 0.924), rgba(0, 255, 255, 0.719));
+   -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.7s; }
+
+
+    .heading-primary:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 2rem 2rem rgba(0, 0, 0, 0.226);
+    }
+
+    /* button section here */
+
+    .btn:link, .btn:visited {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 1rem 3rem;
+      border-radius: 5rem;
+      font-size: 1.6rem;
+      color: white;
+      position: relative;
+      border: 2px solid white;
+      transition: all .2s; }
+    
+    .btn:hover {
+      outline: none;
+      transform: translateY(-3px);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.76); }
+    
+    .btn:active {
+      transform: translateY(-2px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.76); }
